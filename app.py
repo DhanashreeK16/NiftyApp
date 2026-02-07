@@ -9,7 +9,7 @@ st.set_page_config(page_title="Stock Analytics Pro", layout="wide", initial_side
 st.markdown("""
     <style>
     .main {
-        background-color: #0e1117;
+        background-color: ##fff152;
     }
     .stMetric {
         background-color: #1e2130;
