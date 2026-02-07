@@ -29,7 +29,7 @@ st.markdown("""
 # 3. Load Data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../yfinance_Project/Stock_NS.csv")
+    df = pd.read_csv("Stock_NS.csv")
     df['Date'] = pd.to_datetime(df['Date'])
     return df
 
